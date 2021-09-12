@@ -150,6 +150,37 @@ var cajaTexto = document.getElementById("result");
 
 
 
+//invocacion de las funciones con sus respectivos parametros
+agregarResult(sanSalvadorF,sanSalvador);
+agregarResult(sonsonateF,sonsonate);
+agregarResult(ahuachapanF,ahuachapan);
+agregarResult(santaAnaF,santaAna);
+agregarResult(sanMiguelF,sanMiguel);
+agregarResult(cabañasF,Cabañas);
+agregarResult(laUnionF,laUnion);
+agregarResult(laPazF,laPaz);
+agregarResult(laLibertadF,laLibertad);
+agregarResult(sanVicenteF,sanVicente);
+agregarResult(usulutanF,usulutan);
+agregarResult(cuscatlanF,cuscatlan);
+agregarResult(chalatenangoF,chalatenango);
+agregarResult(morazanF,morazan);
+//creacion de funcion
+//funcion principal la cual pasara el arreglo correspondiente a mi textarea
+function agregarResult(departamentoF,arreglop){
+                
+    departamentoF.addEventListener("mouseover", function( event ) {
+    
+        cajaTexto.value = arreglop;
+      
+    }, false);
+    
+    departamentoF.addEventListener("mouseout", function(event){
+          cajaTexto.value= '';
+    });
+
+}
+
 
 
 
