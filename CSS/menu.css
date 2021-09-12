@@ -88,7 +88,7 @@ body {
     .bandera img{
         position: relative;
         top: -20px; 
-        left: 1090px;
+        left: 1100px;
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -105,6 +105,4 @@ body {
             left: 45%;
             font-family: "Homer Simpson UI";
         }
-    }  
-
-
+    }
